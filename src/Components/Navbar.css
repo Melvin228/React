@@ -1,0 +1,24 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 80%;
+}
+
+.navbar input {
+  justify-content: flex-end;
+  margin: 2% 3% 1px 20%;
+  width: 15%;
+  padding: 0px;
+  background-color: red;
+  border: 2px solid black;
+  font-weight: 100;
+}
+
+.navbar input[type="text"] {
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
